@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <title>Block Miner</title>
+  </head>
+  <body>
+    <main>
+      <h1>Block Miner</h1>
+      <p>Mine around!</p>
+      <ul>
+        <li>Grass</li>
+        <li>Dirt</li>
+        <li>Stone</li>
+        <li>Iron</li>
+        <li>Diamond</li>
+      </ul>
+      <p>Good Luck!</p>
+      <form method="get">
+        <input type="number" name = "seed" placeholder = "Enter a seed..." value="">
+        <input type="submit" value = "Play Game" onclick="this.form.action=location.domain + '/src/main.html';">
+      </form>
+    </main>
+  </body>
+</html>
